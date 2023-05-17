@@ -1,0 +1,156 @@
+body {
+  background: linear-gradient(180deg, #2A2E7D 0%, rgba(7, 7, 9, 0.88) 92.71%);
+  display: flex;
+  height: 1533px;
+  width: 1440px;
+  left: -4779px;
+  top: 1400px;
+  border-radius: 0px;
+
+  font-family: 'Muli', sans-serif;
+}
+
+.column {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  color: #deff32;
+}
+
+.contract,
+.manager-contract,
+.existing-contracts {
+margin: 10px;
+display: inline-block;
+border-radius: 3px;
+min-width: 80%;
+position: relative;
+background: linear-gradient(180deg, #2A2E7D 0%, rgba(7, 7, 9, 0.88) 92.71%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.existing-contracts {
+  overflow-y: scroll;
+  max-height: calc(100vh - 150px);
+  position: relative; /* Set position to relative */
+}
+
+h1 {
+  background-color: #2d2d30;
+  position: sticky;
+  top: 0;
+  color: #aaa;
+  margin: 0px;
+  padding: 15px;
+  border-bottom: 1px solid #1e1e1e;
+}
+
+p {
+  color: #aaa;
+  margin: 20px;
+  font-size: 1.25em;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  color: #deff32;
+  margin: 20px;
+}
+
+label > div {
+  display: flex;
+  flex: 1;
+}
+
+input[type="text"] {
+  margin: 5px;
+  padding: 10px;
+  font-size: 18px;
+  border: 0px;
+  border-radius: 3px;
+  background-color: #eee;
+  flex: 1;
+left: calc(50% - 479px/2 - 324.5px);
+top: 948.88px;
+
+background: #D9D9D9;
+border-radius: 0px 50px;
+}
+
+select {
+  margin: 5px;
+  padding: 10px;
+  font-size: 18px;
+  border: 0px;
+  /* border-radius: 3px; */
+  background: #6A6B93;
+border-radius: 50px 0px 50px 0px;
+  background-color: #eee234;
+}
+
+.button {
+  border: 1px solid #f58427;
+  border-radius: 3px;
+  color: #f58427;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 20px;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #f58427;
+  color: #020120;
+}
+
+.dialog-button:hover {
+  background-color: #020120;
+  color: #f58427;
+  transition: 350ms ease-in-out;
+}
+
+.existing-contract ul {
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid #1e1e1e;
+  border-radius: 3px;
+  background-color: #3e3e42;
+  font-size: 18px;
+  color: #aaa;
+}
+
+.existing-contract ul > li {
+  list-style: none;
+  display: flex;
+  margin: 10px;
+}
+
+.existing-contract ul > li > div {
+  margin: 0 5px;
+}
+
+.existing-contract .complete {
+  color: #5aa75a;
+  text-align: center;
+}
+
+a:link {
+  color: #aaa;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #aaa;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #f58427;
+  text-decoration: none;
+}
